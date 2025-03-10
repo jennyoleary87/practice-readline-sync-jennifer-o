@@ -25,19 +25,19 @@ const answer1 = readline.question("1. What would the data type uses values 'true
 console.log("Your response was ${answer1}"); // correct = boolean
 
 // Question 2
-const answer2 = readline.questionInt("A line of code reads 'console.log('6' + 3)'. What is the output? (Enter a number) ");
+const answer2 = readline.questionInt("2. A line of code reads 'console.log('6' + 3)'. What is the output? (Enter a number) ");
 console.log("Your response was " + answer2); // correct = concatenation 63
 
 // Question 3
-const answer3 = readline.question("Explicit or Implicit?: Type Casting - Programmer intentionally converts a value from one data type to another. ");
+const answer3 = readline.question("3. Explicit or Implicit?: Type Casting - Programmer intentionally converts a value from one data type to another. ");
 console.log("Your response was " + answer3); // correct = explicit
 
 // Question 4
-const answer4 = readline.question("What is it called when a named variable starts with a lowercase letter, but each following word within the name begins with a capital letter? ");
+const answer4 = readline.question("4. What is it called when a named variable starts with a lowercase letter, but each following word within the name begins with a capital letter? ");
 console.log("Your response was " + answer4); // correct = camel case, camelCase
 
 // Question 5
-const answer5 = readline.question("What keyword declares a variable that cannot be reassigned? ");
+const answer5 = readline.question("5. What keyword declares a variable that cannot be reassigned? ");
 console.log("Your response was " + answer5); // correct = const
 
 // Print stored answers back
